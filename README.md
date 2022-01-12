@@ -1,1 +1,1 @@
-# Just some code from me, Anastasiia
+# Just some code from me
