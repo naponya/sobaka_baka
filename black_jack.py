@@ -1,5 +1,3 @@
-## 11 i 1 pashalka
-
 import random
 from colorama import Fore
 from colorama import Style
