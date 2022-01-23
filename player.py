@@ -19,7 +19,7 @@ class Player(Turtle):
         self.forward(STEP_PLAYER)
 
     def quit(self):
-        """Makes layer move to the right of
+        """Makes player move to the right of
         the screen by a given number of steps"""
 
         print("💀")
