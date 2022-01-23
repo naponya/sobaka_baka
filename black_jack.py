@@ -9,12 +9,12 @@ true_false = [True, False, False]
 
 cards_stable = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 
-img_player = []
-img_computer = []
+# img_player = []
+# img_computer = []
 
 
 def take_card(hand, img_list):
-    """Take a random card from the deck"""
+    """Takes a random card from the deck"""
 
     hand.append(random.choice(cards))
     cards.remove(hand[-1])
@@ -184,6 +184,8 @@ while True:
         decision = input("Inappropriate symbol. Type 'y' to start game, type 'n' to exit: ")
     if decision == 'y':
         cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+        img_player = []
+        img_computer = []
         play()
     else:
         print(logo_goodbye)
