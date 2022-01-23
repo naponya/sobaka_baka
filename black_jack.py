@@ -1,11 +1,7 @@
 import random
 from colorama import Fore
 from colorama import Style
-from hangman_art import logo_black_jack
-from hangman_art import happy_emoji
-from hangman_art import sad_emoji
-from hangman_art import cards_imgs
-from hangman_art import logo_goodbye
+from hangman_art import logo_black_jack, happy_emoji, sad_emoji, cards_imgs, logo_goodbye
 
 cls = lambda: print('\n'*100)
 
