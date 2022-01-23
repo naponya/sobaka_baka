@@ -39,7 +39,7 @@ sleep_time = 0.1
 while True:
     scoreboard.update_score()
 
-    # -------------RANDOMLY CREATE CAR-------------
+    # -------------RANDOMLY CREATE A CAR-------------
     if choice(true_false):
         car = Car()
         cars.append(car)
@@ -52,7 +52,7 @@ while True:
     screen.update()
     sleep(sleep_time)
 
-    # -------------CHECK IF CAR CRUSHED INTO TURTLE-------------
+    # -------------CHECK IF CAR CRUSHED INTO PLAYER-------------
     for car in cars:
         if player.distance(car) < 18:
             screen.onkeypress(None, "Up")
@@ -70,4 +70,3 @@ while True:
         score_fin.win()
         player.ht()
         screen.onkeypress(None, "Up")
-
